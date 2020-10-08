@@ -1,0 +1,121 @@
+
+/*Klassen för hela menyn*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  border:2px black solid;
+  margin-left:auto;
+  margin-right:auto;
+}
+/* Klassen för text*/
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  
+}
+/* Klassen för att centrera*/
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+  
+}
+/* Klassen för knappen du trycker på längst ner*/
+li:last-child {
+  border-bottom: none;
+}
+/* Klassen för färgen på knappen*/
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+/* Klassen för knappen längst upp ändrar inte färg*/
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* Klassen för bakgrundsfärgen på alla sidorna*/
+body {
+  background-color: blue;
+}
+
+/* Klassen för huvudrubriken*/
+.gåsar{
+    background-color:green;
+    color:red;
+    text-align: center;
+    font-size:80px;
+}
+
+/* Klassen för Leifs bild*/
+.gås1 {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/* Klassen för Frasses bild*/
+.gås2{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* Klassen för de rubrikerna ovanför bilderna*/
+.Rubrik{
+    text-align:center;
+    font-size:100px;
+}
+/* Klassen för huvudrubriken på startsidan*/
+.Emil {
+    text-align:center;
+    font-size:150px;
+}
+/* Klassen för Andra Rubriken */
+.Gås {
+    text-align:center;
+    font-size:30px;
+}
+/* Klassen för bilden på startsidan*/
+.Gåsen{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* Klassen för texten i listan*/
+.Lista {
+    text-align:left;
+    font-size:30px;
+}
+/* Klassen för tabellens rubrik*/
+.Vem {
+    text-align:left;
+    font-size:50px;
+}
+/* Gruppen för texten i tabellen och ram runt tabellen*/ 
+table,th,td{
+    margin-left:auto;
+    margin-right:auto;
+    font-size:50px;
+    border:2px solid black;
+    border-collapse: collapse;
+}
+
+/* Klassen för att dra ner tabellen*/
+.blue {
+    color:blue;
+
+}
+
+/* Klassen för länken till instagram på bildersidan*/
+.Instagram {
+    margin-left:auto;
+    display:block;
+    margin-right:auto;
+    font-size:140px;
+	color:white;
+}
